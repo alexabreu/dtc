@@ -1,4 +1,6 @@
 import React from "react"
+import cn from 'classnames';
+
 import Main from "../containers/main";
 
 import Styles from './styles/staff.module.scss';
@@ -9,7 +11,7 @@ export default () => (
     link="/staff"
   >
     <div className={Styles.bio}>
-      <img className={Styles.linda} src="/images/staff/linda.jpg" title="Photo of Linda Napier, MS, APRN, NP-C" alt="Linda Napier, MS, APRN, NP-C"/>
+      <img className={cn(Styles.photo, Styles.linda)} src="/images/staff/linda.jpg" title="Photo of Linda Napier, MS, APRN, NP-C" alt="Linda Napier, MS, APRN, NP-C"/>
       <section className={Styles.content}>
         <h4>Linda Napier, MS, APRN, NP-C</h4>
         <h6>FAMILY NURSE PRACTITIONER</h6>
