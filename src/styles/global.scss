@@ -7,10 +7,17 @@ body {
 a {
   text-decoration: none;
   color: $white;
+  &.primary {
+    color: $primary;
+  }
   &:visited {
     color: $white;
   }
   &:hover {
     color: $secondary;
   }
+}
+
+address {
+  font-style: normal;
 }

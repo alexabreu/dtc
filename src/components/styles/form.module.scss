@@ -1,0 +1,30 @@
+@import '../../styles/colors.scss';
+
+.form {
+  width: 450px;
+  .field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    input {
+      width: 250px;
+      padding: 0.25em 0.5em;
+    }
+  }
+}
+
+.button {
+  background: $secondary;
+  color: $white;
+  cursor: pointer;
+  border: none;
+  opacity: .95;
+  padding: 0.25em 1em;
+  transition: opacity ease 100ms;
+  &.secondary {
+    background: $primary;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}

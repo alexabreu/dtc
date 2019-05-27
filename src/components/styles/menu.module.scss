@@ -18,6 +18,7 @@
   margin: 0;
   padding: 2em;
   transition: right ease 350ms;
+  z-index: 1;
 
   .menuItem + .menuItem {
     border-top: 1px solid lighten($primary, 10%);

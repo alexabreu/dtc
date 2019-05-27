@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -11,7 +10,7 @@ const handleClick = (e) => {
   e.stopPropagation();
 }
 
-export default ({isOpen, onClick}) => ReactDOM.createPortal(
+export default ({isOpen, onClick}) => (
   <menu className={cn(Styles.menu, {[Styles.isOpen]: isOpen})} onClick={handleClick}>
     <CloseIcon className={cn(Styles.close, IconStyles.canClick)} onClick={onClick}/>
     <header>
@@ -23,6 +22,5 @@ export default ({isOpen, onClick}) => ReactDOM.createPortal(
       <li className={Styles.menuItem}><Link to="/staff">Our Team</Link></li>
       <li className={Styles.menuItem}><Link to="/contact">Contact Us</Link></li>
     </ul>
-  </menu>,
-  document.body
+  </menu>
 );
