@@ -48,6 +48,13 @@ class Main extends Component {
           <title>{fullTitle}</title>
           <link rel="canonical" href={`http://dtcme.org${link}`} />
           <meta name="description" content='The Downeast Treatment Center is the hub of a " hub and spoke" treatment model for substance use conditions developed by the Downeast Treatment Network partnership. As a treatment hub, the Downeast Treatment Center offers comprehensive medication assisted treatment (MAT) services, with integrated behavioral health and medication supervision for the treatment of substance use conditions, including opioid use disorder. We offer help and hope to individuals who are struggling with chemical dependency, addiction, or substance use.' />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+          <link rel="manifest" href="/site.webmanifest"/>
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#29abe2"/>
+          <meta name="msapplication-TileColor" content="#2b5797"/>
+          <meta name="theme-color" content="#ffffff"/>
         </Helmet>
         <nav>
           <Menu isOpen={this.state.isMenuOpen} onClick={this.handleMenuClick} />
@@ -57,7 +64,7 @@ class Main extends Component {
           onClick={this.closeMenu}
         >
           <header>
-            <Link to="/"><Logo className={LogoStyles.canClick}/></Link>
+            <Link to="/" name="Link to Home" aria-label="Link to DTC home page."><Logo className={LogoStyles.canClick}/></Link>
             <h1>{title}</h1>
             <p>{description}</p>
             <MenuIcon className={cn(IconStyles.canClick, MenuStyles.menuButton)} onClick={this.handleMenuClick}/>

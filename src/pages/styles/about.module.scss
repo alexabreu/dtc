@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    .video {
+      order: 1;
+      width: 40%;
+      min-width: 320px;
+    }
+    .content {
+      order: 0;
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    .video {
+      width: 640px;
+      height: 360px;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 2em;
+    }
+  }
+}
