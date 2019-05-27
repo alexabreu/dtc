@@ -64,10 +64,12 @@ class Main extends Component {
           onClick={this.closeMenu}
         >
           <header>
-            <Link to="/" name="Link to Home" aria-label="Link to DTC home page."><Logo className={LogoStyles.canClick}/></Link>
+            <Link to="/" name="Link to Home" aria-label="Link to DTC home page." title="Back Home"><Logo className={LogoStyles.canClick}/></Link>
             <h1>{title}</h1>
             <p>{description}</p>
-            <MenuIcon className={cn(IconStyles.canClick, MenuStyles.menuButton)} onClick={this.handleMenuClick}/>
+            <button className={MenuStyles.menuButton} onClick={this.handleMenuClick} aria-label="Show navigation menu options." title="Show Menu">
+              <MenuIcon className={cn(IconStyles.canClick)} />
+            </button>
           </header>
           <main>
             {children}

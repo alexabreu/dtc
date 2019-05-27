@@ -5,19 +5,37 @@
   top: 60px;
   right: 60px;
   transform: scale(1.2);
+  padding: 0.2em 0.5em;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  display: flex;
+  transition: all ease 500ms;
+  cursor: pointer;
+  &:hover {
+    background: rgba(41, 171, 226, 0.1);
+    svg {
+      fill: $secondary;
+    }
+  }
 }
 
 .menu {
   background: $primary;
   color: $white;
-  width: 400px;
+  @media only screen and (min-width: 1000px) {
+    width: 400px;
+    right: -450px;
+  }
+  @media only screen and (max-width: 1000px) {
+    width: 285px;
+    right: -315px;
+  }
   position: fixed;
   top: 0;
-  right: -450px;
   height: 100%;
   margin: 0;
   padding: 2em;
-  transition: right ease 350ms;
+  transition: right ease 500ms;
   z-index: 1;
 
   .menuItem + .menuItem {
@@ -44,5 +62,10 @@
     left: -75px;
     opacity: 0;
     transition: all ease 350ms;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    cursor: pointer;
   }
 }

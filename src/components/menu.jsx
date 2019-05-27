@@ -12,11 +12,13 @@ const handleClick = (e) => {
 
 export default ({isOpen, onClick}) => (
   <menu className={cn(Styles.menu, {[Styles.isOpen]: isOpen})} onClick={handleClick}>
-    <CloseIcon className={cn(Styles.close, IconStyles.canClick)} onClick={onClick}/>
+    <button title="Close Menu" aria-hidden="Close navigation menu." className={Styles.close} onClick={onClick}>
+      <CloseIcon className={cn(IconStyles.canClick)} />
+    </button>
     <header>
       <h3>MENU</h3>
     </header>
-    <ul>
+    <ul onClick={onClick}>
       <li className={Styles.menuItem}><Link name="Home" aria-label="Link to DTC home page." to="/">Home</Link></li>
       <li className={Styles.menuItem}><Link name="About Us" aria-label="Link to DTC about us page." to="/about">About Us</Link></li>
       <li className={Styles.menuItem}><Link name="Our Team" aria-label="Link to DTC staff page." to="/staff">Our Team</Link></li>

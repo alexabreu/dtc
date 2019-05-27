@@ -1,13 +1,17 @@
 @import '../../styles/colors.scss';
 
 .form {
-  width: 450px;
   .field {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    label {
+      margin-right: 4em;
+      white-space: nowrap;
+      width: 20%;
+    }
     input {
-      width: 250px;
+      width: 60%;
       padding: 0.25em 0.5em;
     }
   }

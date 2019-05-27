@@ -1,14 +1,30 @@
 @import '../../styles/colors.scss';
 
 .footer {
-  padding: 50px 100px;
+  @media only screen and (min-width: 1000px) {
+    padding: 6rem 5rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    padding: 1rem 2rem;
+  }
   display: flex;
   flex-flow: wrap;
   background: $block;
   margin: 0;
   justify-content: space-between;
+  .wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 50%;
+  }
   .section {
     margin-bottom: 1.5em;
+    width: 30%;
+    min-width: 300px;
+    #mc_embed_signup {
+      width: 40%;
+    }
     &.clear {
       display: flex;
       flex-flow: wrap;

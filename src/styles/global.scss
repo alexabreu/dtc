@@ -21,3 +21,19 @@ a {
 address {
   font-style: normal;
 }
+
+iframe {
+  body {
+    margin: 0;
+  }
+}
+
+button, input[type=submit] {
+  outline: none;
+}
+
+input[type=text], input[type=email] {
+  &:focus {
+    outline: 1px solid $secondary;
+  }
+}
