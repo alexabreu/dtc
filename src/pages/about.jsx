@@ -10,7 +10,7 @@ export default () => (
   >
     <div className={Styles.container}>
       <section className={Styles.video}>
-        <iframe src='https://www.wabi.tv/templates/2015_Sub_Video_Share?contentObj=493189141' width="100%" height="100%" frameBorder='0' scrolling='no'></iframe>
+        <iframe title="WABI TV Downeast Treatment Center Video" src='https://www.wabi.tv/templates/2015_Sub_Video_Share?contentObj=493189141' width="100%" height="100%" frameBorder='0' scrolling='no'></iframe>
       </section>
       <section className={Styles.content}>
         <h4>What can I expect at the Downeast Treatment Center (DTC)?</h4>

@@ -24,7 +24,7 @@ export default () => (
       <p>8 AM - 8 PM</p>
     </section>
     <section className={cn(Styles.section, Styles.clear)}>
-      <p>©️ Downeast Treatment Center, All Rights Reserved</p>
+      <p><span role="img" aria-label="Copyright. Downeast Treatment Center, All Rights Reserved">©️</span> Downeast Treatment Center, All Rights Reserved</p>
     </section>
   </footer>
 );

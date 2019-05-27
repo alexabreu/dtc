@@ -21,7 +21,7 @@ export default () => (
 
     <p>406 State Street, Suite 2 in Ellsworth, Maine</p>
 
-    <iframe width="100%" height="450" frameBorder="0" style={{ border: 0 }} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJZ2MmofvwrkwR_QdhMz1Cxvc&key=AIzaSyA7-3BW_JUzZrZ6-HK-0IQBY2_bRlHeCDM" allowFullScreen></iframe>
+    <iframe title="Downeast Treatment Center Google Map" width="100%" height="450" frameBorder="0" style={{ border: 0 }} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJZ2MmofvwrkwR_QdhMz1Cxvc&key=AIzaSyA7-3BW_JUzZrZ6-HK-0IQBY2_bRlHeCDM" allowFullScreen></iframe>
 
   </Main>
 )
