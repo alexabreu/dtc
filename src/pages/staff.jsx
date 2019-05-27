@@ -6,6 +6,7 @@ export default () => (
   <Main
     title="Our Team"
     description="Lorem Ipsum"
+    link="/staff"
 
   >
   </Main>

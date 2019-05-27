@@ -5,6 +5,7 @@ import Main from "../containers/main";
 export default () => (
   <Main
     title="Contact Us"
+    link="/contact"
   >
     <h4>When is the Downeast Treatment Center open?</h4>
 

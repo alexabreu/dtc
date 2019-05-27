@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import cn from 'classnames';
 
@@ -35,10 +36,19 @@ class Main extends Component {
   }
 
   render() {
-    const {title, description, children} = this.props;
+    const {title, description, link = '', children} = this.props;
+
+    const fullTitle = title === 'Downeast Treatment Center' ? title : `Downeast Treatment Center | ${title}`;
 
     return (
       <>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <html lang="en" amp />
+          <title>{fullTitle}</title>
+          <link rel="canonical" href={`http://dtcme.org${link}`} />
+          <meta name="description" content='The Downeast Treatment Center is the hub of a " hub and spoke" treatment model for substance use conditions developed by the Downeast Treatment Network partnership. As a treatment hub, the Downeast Treatment Center offers comprehensive medication assisted treatment (MAT) services, with integrated behavioral health and medication supervision for the treatment of substance use conditions, including opioid use disorder. We offer help and hope to individuals who are struggling with chemical dependency, addiction, or substance use.' />
+        </Helmet>
         <nav>
           <Menu isOpen={this.state.isMenuOpen} onClick={this.handleMenuClick} />
         </nav>

@@ -2,7 +2,7 @@
   "name": "dtc",
   "private": true,
   "description": "Informational website describing treatment approach at the Downeast Treatment Center (DTC) in Ellsworth, ME.",
-  "homepage": "http://dtcme.org",
+  "homepage": "dtcme.org",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -17,11 +17,13 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.7.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-typography": "^2.2.13",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19"
   },

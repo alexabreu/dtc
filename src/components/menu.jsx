@@ -17,10 +17,10 @@ export default ({isOpen, onClick}) => (
       <h3>MENU</h3>
     </header>
     <ul>
-      <li className={Styles.menuItem}><Link to="/">Home</Link></li>
-      <li className={Styles.menuItem}><Link to="/about">About Us</Link></li>
-      <li className={Styles.menuItem}><Link to="/staff">Our Team</Link></li>
-      <li className={Styles.menuItem}><Link to="/contact">Contact Us</Link></li>
+      <li className={Styles.menuItem}><Link name="Home" title="Link to Home" to="/">Home</Link></li>
+      <li className={Styles.menuItem}><Link name="About Us" title="Link to About Us" to="/about">About Us</Link></li>
+      <li className={Styles.menuItem}><Link name="Our Team" title="Link to Our Team" to="/staff">Our Team</Link></li>
+      <li className={Styles.menuItem}><Link name="Contact Us" title="Link to Contact Us"to="/contact">Contact Us</Link></li>
     </ul>
   </menu>
 );
