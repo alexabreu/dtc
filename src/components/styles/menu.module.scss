@@ -2,8 +2,14 @@
 
 .menuButton {
   position: fixed;
-  top: 60px;
-  right: 60px;
+  @media only screen and (min-width: 1000px) {
+    top: 60px;
+    right: 60px;
+  }
+  @media only screen and (max-width: 1000px) {
+    top: 20px;
+    right: 20px;
+  }
   transform: scale(1.2);
   padding: 0.2em 0.5em;
   background: rgba(255, 255, 255, 0.5);

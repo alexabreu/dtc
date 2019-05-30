@@ -11,7 +11,7 @@ const handleClick = (e) => {
 }
 
 export default ({isOpen, onClick}) => (
-  <menu className={cn(Styles.menu, {[Styles.isOpen]: isOpen})} onClick={handleClick}>
+  <menu className={cn(Styles.menu, { [Styles.isOpen]: isOpen })} onClick={handleClick} aria-expanded={isOpen}>
     <button title="Close Menu" aria-label="Close navigation menu." className={Styles.close} onClick={onClick}>
       <CloseIcon className={cn(IconStyles.canClick)} />
     </button>

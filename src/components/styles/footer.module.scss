@@ -19,7 +19,7 @@
     width: 50%;
   }
   .section {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.75em;
     width: 30%;
     min-width: 300px;
     #mc_embed_signup {
@@ -32,7 +32,14 @@
       justify-content: space-between;
     }
   }
+  address {
+    margin-bottom: 0;
+  }
   p {
     margin: 0;
+  }
+  strong {
+    display: block;
+    margin: 0 0 0.75em 0;
   }
 }

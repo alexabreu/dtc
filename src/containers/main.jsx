@@ -67,7 +67,7 @@ class Main extends Component {
             <Link to="/" name="Link to Home" aria-label="Link to DTC home page." title="Back Home"><Logo className={LogoStyles.canClick}/></Link>
             <h1>{title}</h1>
             <p>{description}</p>
-            <button className={MenuStyles.menuButton} onClick={this.handleMenuClick} aria-label="Show navigation menu options." title="Show Menu">
+            <button className={MenuStyles.menuButton} onClick={this.handleMenuClick} aria-label="Show navigation menu." title="Show navigation menu." aria-haspopup aria-controls="menu">
               <MenuIcon className={cn(IconStyles.canClick)} />
             </button>
           </header>
