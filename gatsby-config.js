@@ -13,6 +13,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
