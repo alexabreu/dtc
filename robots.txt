@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://dtcme.org/sitemap.xml
+Host: https://dtcme.org
