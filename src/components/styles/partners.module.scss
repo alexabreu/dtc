@@ -4,7 +4,7 @@
   background: $secondary;
   color: $white;
   @media only screen and (min-width: 1000px) {
-    padding: 3rem 2rem;
+    padding: 5rem;
   }
   @media only screen and (max-width: 1000px) {
     padding: 2rem 1rem;
@@ -14,13 +14,13 @@
 .logos {
   display: flex;
   flex-wrap: wrap;
-  min-height: 300px;
-  padding: 1rem 0;
+  min-height: 350px;
+  padding: 2rem 0;
   justify-content: space-around;
   align-items: stretch;
   background: $white;
   @media only screen and (min-width: 1000px) {
-    margin: 3rem -2rem -3rem -2rem;
+    margin: 5rem -5rem -5rem -5rem;
   }
   @media only screen and (max-width: 1000px) {
     margin: 2rem -1rem -2rem -1rem;
