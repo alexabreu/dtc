@@ -7,6 +7,7 @@ import Logo from '../components/logo';
 import Menu from '../components/menu';
 import MenuIcon from '../components/icons/menu';
 import Footer from '../components/footer';
+import Partners from '../components/partners';
 
 import Styles from './styles/main.module.scss';
 import LogoStyles from '../components/styles/logo.module.scss';
@@ -75,6 +76,7 @@ class Main extends Component {
             {children}
           </main>
         </article>
+        <Partners />
         <Footer />
       </>
     );

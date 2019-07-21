@@ -1,0 +1,90 @@
+@import '../../styles/colors.scss';
+
+.partners {
+  background: $secondary;
+  color: $white;
+  @media only screen and (min-width: 1000px) {
+    padding: 3rem 2rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    padding: 2rem 1rem;
+  }
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 300px;
+  padding: 1rem 0;
+  justify-content: space-around;
+  align-items: stretch;
+  background: $white;
+  @media only screen and (min-width: 1000px) {
+    margin: 3rem -2rem -3rem -2rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    margin: 2rem -1rem -2rem -1rem;
+  }
+}
+
+
+.logo {
+  height: 75px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  filter: grayscale(100%);
+  @media only screen and (max-width: 1000px) {
+    margin: 1.5rem 0 0 0;
+  }
+  &:hover {
+    filter: none;
+    opacity: .75;
+  }
+}
+
+.amhc {
+  background-image: url(/images/logos/amhc.png);
+  order: 4;
+}
+
+.brhc {
+  background-image: url(/images/logos/brhc.png);
+  order: 5;
+}
+
+.hrsa {
+  background-image: url(/images/logos/hrsa.png);
+  order: 6;
+}
+
+.mdih {
+  background-image: url(/images/logos/mdih.png);
+  order: 1;
+}
+
+.mehaf {
+  background-image: url(/images/logos/mehaf.png);
+  order: 7;
+}
+
+.nlbhh {
+  background-image: url(/images/logos/nl-bhh.png);
+  order: 3;
+}
+
+.nlmch {
+  background-image: url(/images/logos/nl-mch.png);
+  order: 2;
+}
+
+.samhs {
+  background-image: url(/images/logos/samhs.png);
+  order: 8;
+}
+
+.stkf {
+  background-image: url(/images/logos/stkf.png);
+  order: 9;
+}
