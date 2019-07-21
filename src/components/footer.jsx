@@ -34,7 +34,7 @@ export default () => (
       </section>
     </div>
     <section className={cn(Styles.section, Styles.clear)}>
-      <p><span role="img" aria-label="Copyright. Downeast Treatment Center, All Rights Reserved">©️</span> Downeast Treatment Center, All Rights Reserved</p>
+      <p><span role="img" aria-label="Copyright. DownEast Treatment Center, All Rights Reserved">©️</span> DownEast Treatment Center, All Rights Reserved</p>
     </section>
   </footer>
 );

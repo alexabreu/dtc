@@ -1,7 +1,7 @@
 {
   "name": "dtc",
   "private": true,
-  "description": "Informational website describing treatment approach at the Downeast Treatment Center (DTC) in Ellsworth, ME.",
+  "description": "Informational website describing treatment approach at the DownEast Treatment Center (DTC) in Ellsworth, ME.",
   "homepage": "dtcme.org",
   "version": "0.1.0",
   "license": "MIT",

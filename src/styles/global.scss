@@ -9,6 +9,9 @@ a {
   color: $white;
   &.primary {
     color: $primary;
+    &:visited {
+      color: $secondary;
+    }
   }
   &:visited {
     color: $white;

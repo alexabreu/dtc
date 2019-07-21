@@ -38,7 +38,7 @@ class Main extends Component {
   render() {
     const {title, description, link = '', children} = this.props;
 
-    const fullTitle = title === 'Downeast Treatment Center' ? title : `Downeast Treatment Center | ${title}`;
+    const fullTitle = title === 'DownEast Treatment Center' ? title : `DownEast Treatment Center | ${title}`;
 
     return (
       <>
@@ -47,7 +47,7 @@ class Main extends Component {
           <html lang="en" amp />
           <title>{fullTitle}</title>
           <link rel="canonical" href={`http://dtcme.org${link}`} />
-          <meta name="description" content='The Downeast Treatment Center is the hub of a " hub and spoke" treatment model for substance use conditions developed by the Downeast Treatment Network partnership. As a treatment hub, the Downeast Treatment Center offers comprehensive medication assisted treatment (MAT) services, with integrated behavioral health and medication supervision for the treatment of substance use conditions, including opioid use disorder. We offer help and hope to individuals who are struggling with chemical dependency, addiction, or substance use.' />
+          <meta name="description" content='The DownEast Treatment Center is the hub of a " hub and spoke" treatment model for substance use conditions developed by the DownEast Treatment Network partnership. As a treatment hub, the DownEast Treatment Center offers comprehensive medication assisted treatment (MAT) services, with integrated behavioral health and medication supervision for the treatment of substance use conditions, including opioid use disorder. We offer help and hope to individuals who are struggling with chemical dependency, addiction, or substance use.' />
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>

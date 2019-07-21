@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Downeast Treatment Center',
+    title: 'DownEast Treatment Center',
     siteUrl: 'https://dtcme.org'
   },
   plugins: [
