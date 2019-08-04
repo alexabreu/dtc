@@ -5,13 +5,24 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    @media only screen and (max-width: 400px) {
+      flex-wrap: wrap;
+      width: 100%;
+      input {
+        width: 85%;
+      }
+    }
+    @media only screen and (min-width: 400px) {
+      input {
+        width: 60%;
+      }
+    }
     label {
       margin-right: 4em;
       white-space: nowrap;
       width: 20%;
     }
     input {
-      width: 60%;
       padding: 0.25em 0.5em;
     }
   }
