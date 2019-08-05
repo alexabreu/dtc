@@ -33,7 +33,7 @@ export default () => (
       <img className={cn(Styles.photo, Styles.linda)} src="/images/staff/diehl.jpg" title="Photo of Dr. Diehl Snyder" alt="Dr. Diehl Snyder"/>
       <section className={Styles.content}>
         <h4>Dr. Diehl Snyder</h4>
-        <h6>MEDIICAL DIRECTOR</h6>
+        <h6>MEDICAL DIRECTOR</h6>
         <p>Dr. Snyder specializes in general psychiatry. His medical interests and expertise include psychiatry and neurology. As the Director of the Mount Desert Island Behavioral Health Center, he oversees the MDI Hospital-Penn Medicine psychiatry program, which brings residents from Penn Medicine to MDI Hospital each summer to practice on the Island under his guidance. Dr. Snyder and his wife first came to MDI when they honeymooned here. As their family grew, they vacationed here as a family. When their sons went off to college, the couple decided to move here full time. When he is not in the office, he enjoys kayaking, hiking and biking.</p>
       </section>
     </div>
